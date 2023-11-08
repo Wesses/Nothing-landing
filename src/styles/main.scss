@@ -1,7 +1,22 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./utils/variables";
+@import "./utils/normalize";
+@import "./utils/mixins.scss";
 
-body {
-  background: $c-gray;
-}
+@import "./components/button";
+@import "./components/container";
+
+@import "./components/page";
+@import "./components/header";
+@import "./components/icon";
+@import "./components/top-bar";
+@import "./components/nav";
+@import "./components/menu";
+@import "./components/primary";
+@import "./components/section-title";
+@import "./components/product";
+@import "./components/recommended";
+@import "./components/categories";
+@import "./components/division-background";
+@import "./components/about-us";
+@import "./components/form";
+@import "./components/footer";
